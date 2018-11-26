@@ -367,6 +367,10 @@
         <url-pattern>/oauth2/*</url-pattern>
     </filter-mapping>
     <filter-mapping>
+        <filter-name>CORSFilter</filter-name>
+        <url-pattern>/uma/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
         <filter-name>NotificationsWebSocketFilter</filter-name>
         <url-pattern>/notifications</url-pattern>
     </filter-mapping>
