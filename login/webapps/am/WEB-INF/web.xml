@@ -218,7 +218,7 @@
                 The name of the host expected in the request Host header.
             </description>
             <param-name>expectedHostname</param-name>
-            <param-value>openam.example.com:8080</param-value>
+            <param-value>login.example.com:18080</param-value>
         </init-param>
         <init-param>
             <description>
